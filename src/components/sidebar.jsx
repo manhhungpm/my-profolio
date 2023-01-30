@@ -16,10 +16,10 @@ export default class Sidebar extends Component {
             <i />
           </nav>
           <aside id="colorlib-aside" className="border js-fullheight">
-            <div className="text-center">
+            <div className="text-center" style={{marginBottom: '50px'}}>
               <div
                 className="author-img"
-                style={{ backgroundImage: "url(images/about.jpg)" }}
+                style={{ backgroundImage: "url(images/ava.jpg)" }}
               />
               <h1 id="colorlib-logo">
                 <a href="index.html">Nguyễn Mạnh Hưng</a>
@@ -89,36 +89,37 @@ export default class Sidebar extends Component {
                     <i className="icon-github"></i>
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="https://medium.com/@dhruv.barochia34788"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-blogger2"></i>
-                  </a>
-                </li>
+                {/*<li>*/}
+                {/*  <a*/}
+                {/*    href="https://medium.com/@dhruv.barochia34788"*/}
+                {/*    target="_blank"*/}
+                {/*    rel="noopener noreferrer"*/}
+                {/*  >*/}
+                {/*    <i className="icon-blogger2"></i>*/}
+                {/*  </a>*/}
+                {/*</li>*/}
               </ul>
             </nav>
             <div className="colorlib-footer">
               <p>
                 <small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and{" "}
-                  <i className="icon-beer" aria-hidden="true"></i>
+                  Made with manhhungpm <i className="icon-heart" aria-hidden="true" />
+                  {/*and{" "}*/}
+                  {/*<i className="icon-beer" aria-hidden="true"></i>*/}
                   <br></br>
-                  Thanks{" "}
-                  <a
-                    href="https://colorlib.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Colorlib
-                  </a>{" "}
-                  for inspiration
+                  {/*Thanks{" "}*/}
+                  {/*<a*/}
+                  {/*  href="https://colorlib.com"*/}
+                  {/*  target="_blank"*/}
+                  {/*  rel="noopener noreferrer"*/}
+                  {/*>*/}
+                  {/*  Colorlib*/}
+                  {/*</a>{" "}*/}
+                  {/*for inspiration*/}
                 </small>
               </p>
               <p>
-                <small>Something coming soon !!</small>
+                {/*<small>Something coming soon !!</small>*/}
               </p>
             </div>
           </aside>

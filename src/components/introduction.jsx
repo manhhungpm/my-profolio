@@ -11,7 +11,7 @@ export default class Introduction extends Component {
         >
           <div className="flexslider js-fullheight">
             <ul className="slides">
-              <li style={{ backgroundImage: "url(images/img_bg.jpg)" }}>
+              <li style={{ backgroundImage: "url(images/img_bgg.jpg)" }}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -20,12 +20,12 @@ export default class Introduction extends Component {
                         <div className="desc">
                           <h1>
                             Hi! <br />
-                            I'm Dhruv
+                            I'm Hung
                           </h1>
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://docs.google.com/document/d/15coSa2rnZcdywihM-pWTvoGqE65JAkxQAh6JDBNrF2Q/edit?usp=sharing"
+                              href="https://drive.google.com/file/d/1GS8dI5DK3leW3PBS6vuIzb7ugNI6y-JH/view?usp=sharing"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -39,7 +39,7 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li style={{ backgroundImage: "url(images/img_bg.jpg)" }}>
+              <li style={{ backgroundImage: "url(images/img_bgg.jpg)" }}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -47,13 +47,12 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>
-                            I love building
-                            <br /> THINGS !!
+                            Some projects in my repo
                           </h1>
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://github.com/dbarochiya"
+                              href="https://github.com/manhhungpm?tab=repositories"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -66,7 +65,7 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li style={{ backgroundImage: "url(images/img_bg.jpg)" }}>
+              <li style={{ backgroundImage: "url(images/img_bgg.jpg)" }}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -74,13 +73,12 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>
-                            I often <br />
-                            Write ...{" "}
+                            I often write
                           </h1>
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://dhruvbarochiya.me/"
+                              href="https://www.noron.vn/profile?id=97249675913095454&tab=blog"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
